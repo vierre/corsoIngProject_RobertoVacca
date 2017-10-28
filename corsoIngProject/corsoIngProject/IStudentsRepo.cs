@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace corsoIngProject
 {
-    interface IStudentsRepo
+    public interface IStudentsRepo
     {
         Task<IEnumerable<Student>> GetStudents();
         Task<Student> GetStudent(Guid Id);
