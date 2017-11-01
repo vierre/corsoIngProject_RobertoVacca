@@ -15,7 +15,9 @@ namespace corsoIngProject
 
             Task restService = host.RunAsync();
 
+            //System.Diagnostics.Process.Start("cmd", "/C start http://localhost:5000");
             restService.Wait();
+
 
         }
     }
